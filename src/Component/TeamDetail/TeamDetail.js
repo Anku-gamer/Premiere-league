@@ -83,15 +83,15 @@ const TeamDetail = () => {
                         <h3>Follow Us On</h3>
                         <br/>
                         <a href="https://www.youtube.com/channel/UCG5qGWdu8nIRZqJ_GgDwQ-w"
-                            target="_blank" className="youtube social">
+                            target="_blank" rel="noreferrer" className="youtube social">
                             <FontAwesomeIcon icon={faYoutube} size="2x" />
                         </a>
                         <a href="https://www.facebook.com/premierleague"
-                            target="_blank"  className="facebook social">
+                            target="_blank" rel="noreferrer" className="facebook social">
                         <FontAwesomeIcon icon={faFacebook} size="2x" />
                         </a>
                         <a href="https://twitter.com/premierleague" 
-                          target="_blank" className="twitter social">
+                          target="_blank" rel="noreferrer" className="twitter social">
                         <FontAwesomeIcon icon={faTwitter} size="2x" />
                         </a>
                 </div>  
