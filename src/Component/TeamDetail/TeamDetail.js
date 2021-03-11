@@ -15,7 +15,6 @@ import {
     faTwitter,
   } from "@fortawesome/free-brands-svg-icons";
   import './TeamDetail.css';
-  import { useMediaQuery } from 'react-responsive';
   
 
 const TeamDetail = () => {
@@ -28,10 +27,6 @@ const TeamDetail = () => {
     else{
         Photo =  PhotoMale ;
     }
-    const Mobile = ({ children }) => {
-        const isMobile = useMediaQuery({ maxWidth: 767 })
-        return isMobile ? children : null
-      }
     const imageStyle = {
         border : '1px solid black',
         borderRadius: '20px',
