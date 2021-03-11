@@ -1,2 +1,3 @@
 #Premier League
 This website is fully made by react.js and we also added some react router, react bootstrap to organize our website. In this website you can see some english premier league club name and when you click on 'Know More' button , you can see the details of that team. In the bottom, we added some following link to follow those club updates, news and more. Thankyou for reading this!
+live link : https://6049db96fb3dbf54f66a71ad--dreamy-saha-02a6e3.netlify.app/
